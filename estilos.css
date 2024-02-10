@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
+
+/* 
+Typos
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #078da2; 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+h2 {
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+h2 a{
+    font-size: 0.9rem;
+    color: #8303ba;
+}
+
+.ingrese{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    color: #8303ba;
+    margin-bottom: 25px;
+    
+
+}
+
+.container {
+    display: contents;
+}
+
+section {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(3 186 133 / 39%), rgb(6 68 102 / 15%));
+    padding: 30px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+input#numero {
+    background-color: #ffffff9c;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #8303ba;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    background-color: #078da2;
+    padding: .35rem 1rem;
+    border-radius: .25rem;
+    border: 0px;
+    color: #eff2f6;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+  }
+
+  button:hover {
+    background-color: #8303ba;
+}
+
+.resultado{
+    color: #078da2;
+    font-size: 1.5rem;
+}
+
+.barra {
+    /*background-color: #8303ba;*/
+    background: linear-gradient(to right, rgb(45 3 186 / 54%), #0eb1f5);
+    color: white;
+    padding: 10px;
+}
